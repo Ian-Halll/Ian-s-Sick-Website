@@ -2,7 +2,7 @@
 This Website Serves as a portfolio of all my past and current projects, detailing my progress as a full stack developer and my technical abilities
 
 ## Prerequisites 
-To access the site via url, all you will need is a browser, to view the source code, it is recomended you have an IDE installed, I personally recommend VScode, as that is what the site was built in
+To access the site via url, all you will need is a browser, from there you can access the live site at https://ian-halll.github.io/Ian-s-Sick-Website/, to view the source code, it is recomended you have an IDE installed, I personally recommend VScode, as that is what the site was built in
 
 ## Installation
 To install, simply download the source code from the public repository at https://github.com/Ian-Halll/Ian-s-Sick-Website, from there, the index.html and style.css files within can be accessed in your IDE
