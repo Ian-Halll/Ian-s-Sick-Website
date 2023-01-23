@@ -1,0 +1,167 @@
+*{
+    box-sizing:border-box;
+}
+
+
+
+header{
+    
+    background-color:darkgray;
+    border-style:solid;
+    border-color:black;
+    height:200px;
+
+}
+
+header h1{
+
+background-color: lightblue;
+width:200px;
+height:75px;
+
+
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:50px;
+    
+
+}
+
+nav a{ 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+float:right;
+text-align:right;
+justify-content: space-between;
+
+}
+
+aside img{
+    height:400px;
+    width:250px;
+    margin-left:33%;
+    border-style:solid;
+    margin-top:50px;
+}
+
+aside h1{
+    display:flex;
+    margin-left:0;
+    border-right:6px solid black;
+    height:160px;
+    position:absolute;
+    left:15%;
+    padding:20px;
+    right:70%;
+    
+}
+
+aside p{
+    margin-left:33%;
+    padding-top:35px;
+    font-size:25px;
+}
+
+
+.topics{
+display:flex;
+justify-content: flex-end;
+
+
+}
+
+
+.gorilla{
+    position:relative;
+    border-style:solid;
+    border-width:20px;
+    border-color:cornflowerblue;
+    margin:20px;
+    opacity:75%;
+    flex: 0 0 1240px;
+}   
+
+.gorilla:hover{
+    opacity:100%;
+}
+
+.gorilla a{
+    position:absolute;
+    left:0px;
+    bottom:30px;
+    background:cornflowerblue;
+}
+
+a{
+    font-size:30px;
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+
+
+
+.gorilla img{ 
+    
+    width:100%;
+}
+
+.subprojects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+
+.secondary{
+    position:relative;
+    border-style:solid;
+    border-color:cornflowerblue;
+    border-width:20px;
+    margin:20px;
+    flex: 0 0 600px;
+    opacity:75%;
+}
+ 
+.secondary:hover{
+    opacity:100%;
+}
+
+
+
+.secondary a{
+    position:absolute;
+    left:0px;
+    bottom:30px;
+    background:cornflowerblue;
+}
+
+.secondary img{ 
+width:100%;
+min-width:500px;
+
+}
+
+
+footer{
+    text-align: center;
+    font-size:25px;
+    
+}
+
+footer p{
+    display:inline;
+    padding:3%;
+}
+
+footer h1 {
+margin-left:0;
+border-right: 6px solid Black;
+height:160px;
+left:15%;
+position:absolute;
+padding:20px;
+}
+
+
