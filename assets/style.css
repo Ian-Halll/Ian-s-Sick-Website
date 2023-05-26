@@ -4,32 +4,32 @@
 
 body{
     background-color: rgb(199, 127, 151);
+    height:500px;
 }
 
-header{
-    
-    background-color:rgb(131, 38, 38);
-    border-style:solid;
-    border-color:black;
-    height:200px;
-
-}
-
-header h1{
 
 
-width:200px;
-height:75px;
-
-
-}
 
 h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:bolder;
-    font-size:51px;
-    
+    font-size:30px;
+    margin-top:10%;
+    left:33%;
+    margin-bottom:25%;
+    position:absolute;
+}
 
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:30px;
+    margin-top:10%;
+    left:33%;
+    margin-bottom: 25%;
+    position:absolute;
+    align-items: center;
+    display:flex;
 }
 
 nav a{ 
@@ -165,4 +165,7 @@ position:absolute;
 padding:20px;
 }
 
-
+#sides
+{
+    height:500px;
+}
